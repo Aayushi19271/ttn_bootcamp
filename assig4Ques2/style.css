@@ -1,0 +1,138 @@
+/*---------HEADER CSS CODE-----------*/
+*{
+    box-sizing: border-box;
+}
+
+header {
+    margin:20px 10px;
+}
+
+.nav-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav-main li{
+    float: left;
+}
+
+.nav-main li a{
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.nav-main li a:hover{
+    background-color:deepskyblue;
+    color: white;
+}
+
+.nav-left li{
+    float:right;
+}
+
+/*---------FORM CSS CODE-----------*/
+
+.main-form{
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    border-radius: 5px;
+    background-color:white;
+    border: 1px solid lightgrey;
+    padding: 20px 20px 0px;
+    margin: 1% 20% 0px;
+}
+
+.main-form h2{
+    padding: 10px;
+    border-radius: 5px;
+    margin: -20px -20px 20px -20px;
+    background-color:lightgrey;
+    color: white;
+}
+
+.main-form label{
+    font-weight: 700;
+}
+
+.main-form input,
+.main-form textarea{
+    width: 100%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.dropdown_class {
+    width: 100%;
+    border-radius: 5px;
+    background-color: green;
+    border: 1px solid lightgrey;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.dropdown_class h1 {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 1px;
+    background-color: lightgrey;
+    color: white;
+}
+
+.dropdown_class label {
+    font-weight: 700;
+}
+
+.dropdown_class input,
+.dropdown_class textarea1 {
+    width: 100%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.main-form footer{
+    background-color: #dddddd;
+    width: 100%;
+}
+
+.main-form .btn{
+    border: 1px solid lightgrey;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+    width: 20%;
+    float: right;
+    font-size: 16px;
+    color:black;
+    font-weight: 700;
+    transition-duration: 0.2s;
+    margin: -30px;
+}
+
+.btn:hover {
+    background-color: deepskyblue; /* Green */
+    color: white;
+}
+
+.footer{
+    padding: 40px;
+    border-radius: 5px;
+    margin: 2px -20px 0px -20px;
+    background-color:lightgrey;
+    color: white;
+}
