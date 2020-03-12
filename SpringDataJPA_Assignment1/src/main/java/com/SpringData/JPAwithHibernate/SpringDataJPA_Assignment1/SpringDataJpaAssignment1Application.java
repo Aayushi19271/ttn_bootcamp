@@ -1,0 +1,13 @@
+package com.SpringData.JPAwithHibernate.SpringDataJPA_Assignment1;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringDataJpaAssignment1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringDataJpaAssignment1Application.class, args);
+	}
+
+}
